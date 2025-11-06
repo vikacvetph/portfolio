@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en" class="scroll-smooth">
 
 <head>
@@ -9,9 +10,9 @@
   <meta name="description"
     content="Hello there, I'm Victoria Galeeva – an intrepid explorer through the lens, on a relentless quest to capture the world's boundless wonders. Join me in unraveling the extraordinary through my lens as I embark on a visual journey like no other.">
   <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
   <link rel="stylesheet" href="output.css" />
-  <link rel="stylesheet" href="styles.css" />
+ 
   <!-- Alpine.js -->
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
   <!-- Start - Fonts -->
@@ -29,7 +30,7 @@
     <nav id="nav" x-data="{ open: false }" role="navigation" class="w-full">
       <div class="container mx-auto flex flex-wrap items-center md:flex-no-wrap">
         <div class="mr-4 md:mr-8">
-          <a href="../index.html" class="text-2xl font-signika font-bold">vikacvet.ph</a>
+          <a href="index.html" class="text-2xl font-signika font-bold">vikacvet.ph</a>
         </div>
         <div class="ml-auto md:hidden flex items-center justify-start">
           <button onclick="menuToggle()" @click="open = !open"
@@ -54,7 +55,7 @@
           <ul id="ulMenu"
             class="flex flex-col duration-300 ease-out md:space-x-5 sm:transition-none mt-5 md:flex-row md:items-center md:ml-auto md:mt-0 md:pt-0 md:border-0">
             <li class="group transition duration-300">
-              <a href="../index.html" class="font-signika text-2xl">PORTFOLIO
+              <a href="index.html" class="font-signika text-2xl">PORTFOLIO
                 <span
                   class="hidden md:block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-black dark:bg-white">
                 </span>
@@ -86,7 +87,7 @@
    <div
   class="bg-white dark:bg-neutral-900 p-5 pb-28 m-6 md:m-12 shadow-lg border border-gray-100 dark:border-neutral-800 hover:rotate-0 transition duration-500 -rotate-6 relative">
 
-  <img src="images/1298avatar.jpg"
+  <img src="./images/1298avatar.jpg"
        alt="avatar"
        class="smooth-edges w-full h-full object-cover aspect-square rounded-lg" />
 
@@ -95,10 +96,7 @@
   </div>
 </div>
   </div>
-</div>
-        </div>
-
-      </div>
+        
       <section class="font-normal text-center text-base md:text-start mx-3 col-span-2 md:col-span-1 my-auto">
         <div class="block md:hidden">
           <p class="text-3xl font-serif font-bold mb-1">Hello there,</p>
@@ -174,10 +172,10 @@
         </div>
       </div>
       <p class="mt-8 text-xs text-gray-600 dark:text-gray-300 text-center">
-        &copy; vikacvet.ph 
-        2025
-    </div>
-  </footer>
+  &copy;  vikacvet.ph 2025
+</p>
+</div>
+</footer>
   <script src="fade_in.js"></script>
   <script src="menu.js"></script>
 </body>
